@@ -1,0 +1,76 @@
+form {
+    padding: 8px;
+}
+form>div {
+    width: min(800px, 90%);
+    margin: auto;
+    display: block;
+}
+form>div>div {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+input, textarea {
+    color: #555858;
+    text-align: left;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    box-shadow: 4px 4px 8px 1px #888888;
+}
+input {
+    width: 46%;
+    font-size: 1rem;
+}
+textarea {
+    color: #555858;
+    width: 100%;
+    font-size: 1rem;
+}
+#submitButton {
+    width: 200px;
+    text-align: center;
+    color: #f8f5f1;
+    background-color: #5aa897;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    border: none;
+    outline: none;
+    transition: 300ms;
+}
+#submitButton:hover {
+    cursor: pointer;
+    transition: 300ms;
+    background-color: #358876;
+    transform: scale(0.95);
+}
+
+.modal {
+    position: relative;
+    display: inline-block;
+    color: #f7f7f7;
+    text-align: left;
+    padding: 8px 42px;
+    border-radius: 8px;
+    margin-top: 6px;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    box-shadow: 4px 4px 8px 1px #888888;
+    
+}
+#cancel {
+    position: absolute;
+    right: 8px;
+    color: #f7f7f7;
+    text-align: right;
+}
+#cancel:hover {
+    cursor: pointer;
+    transition: 300ms;
+}

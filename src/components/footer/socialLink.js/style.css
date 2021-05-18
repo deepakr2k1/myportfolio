@@ -1,0 +1,32 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+#socialContainer {
+    font-size: 24px;
+    margin: 24px auto;
+}
+#socialIcon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid #f8a488;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 16px;
+    /* border-radius: 24px; */
+    transition: 300ms;
+}
+#socialIcon:hover {
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 300ms;
+    background: #d88265;
+    border: 3px solid #d88265;
+}
+#socialIcon:hover i {
+    color: #f8f5f1;
+    transition: 300ms;
+}
+i {
+    color: #f8a488;
+    transition: 300ms;
+}

@@ -1,0 +1,27 @@
+footer {
+    width: 100vw;
+    height: 70vh;
+    margin: 0;
+    padding: 0;
+}
+/* #contact {
+    background: url('../../assets/contact_me_bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+} */
+#links {
+    position: relative;
+    background: #1a1c20;
+    margin: 0;
+    padding-bottom: 16px;
+    padding-top: 64px;
+}
+.footerText {
+    margin-bottom: 4px;
+}
+/* * {
+    border: 1px solid red;
+} */

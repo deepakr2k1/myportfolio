@@ -1,0 +1,41 @@
+.parent {
+    position: relative;
+    background: #222831;
+    padding: 20px;
+}
+.child {
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    margin-right: 20px;
+}
+.icon {
+    margin: 0 5px;
+    transition-duration: 0.4s;
+}
+.icon:hover {
+    fill: #129171;
+    cursor: pointer;
+    transform: scale(1.06);
+    transition-duration: 0.4s;
+}
+.width-50 {
+    width: 50%;
+}
+.width-100 {
+    width: 50%;
+}
+.mr-40 {
+    margin-right: 40px;
+}
+p {
+    color: rgb(102, 102, 102);
+}
+.project {
+    display: inline-flex;
+    width: 50%;
+    height: 300px;
+}
+/* * {
+    border: 1px solid red;
+} */
