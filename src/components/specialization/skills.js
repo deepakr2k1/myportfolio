@@ -8,7 +8,7 @@ const Skills = (props) => {
             <div className="flexRow inline-flex images-grp">
             {
                 props.tech.icons.map((src, i) =>
-                    <img title={props.tech.tooltip[i]} src={src} height="100px" />
+                    <img title={props.tech.tooltip[i]} src={src} height="100px" alt="Framework Icon" />
                 )
             }
             </div>

@@ -1,4 +1,3 @@
-import {React,useState } from 'react'
 import H3 from '../../UI/H3';
 import Text from '../../UI/Text';
 import Tag from '../../UI/Tag';
@@ -17,8 +16,8 @@ export default function Project(props) {
                         { props.tags.map((item) => <Tag styles={{fontSize: "0.9rem", display: "inline-block"}}>{item}</Tag>) }
                     </div>
                     <div>
-                        <a href={props.links.git} target="_blank"><i class="bi bi-github icon"></i></a>
-                        <a href={props.links.online} target="_blank"><i class="bi bi-arrow-up-right-circle-fill icon"></i></a>
+                        <a href={props.links.git} target="noreferrer"><i class="bi bi-github icon"></i></a>
+                        <a href={props.links.online} target="noreferrer"><i class="bi bi-arrow-up-right-circle-fill icon"></i></a>
                     </div>
                 </div>
             </div>

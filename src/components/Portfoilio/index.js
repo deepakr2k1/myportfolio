@@ -1,6 +1,5 @@
 import React from 'react'
 import Project from './project'
-import PingPongGameImg from '../../assets/ping_pong_game_img.PNG'
 import H1 from '../UI/H1'
 import H2 from '../UI/H2'
 

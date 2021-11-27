@@ -36,9 +36,9 @@ export default function Specialization() {
     return (
         <div id="skills">
             <H1>Skills</H1>
-            <Skills tech={frontend}/>
-            <Skills tech={backend}/>
-            <Skills tech={other}/>
+            <Skills tech={frontend} />
+            <Skills tech={backend} />
+            <Skills tech={other} />
         </div>
     )
 }

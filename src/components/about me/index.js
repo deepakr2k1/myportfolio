@@ -13,10 +13,10 @@ export default function AboutMe() {
             <div className="aboutMe">
                 <div class="aboutMeLeft">
                     <p>Hello! My name is Deepak Rathore and I'm passionate about programming & web-dev. I love to work on real world projects and also loves to reaching out the new people and finding imaginative ways to communicate ideas.</p>
-                    <p style={{ marginTop: 6 }}>I worked as a Full Stack Developer Intern at <a style={{ color: "#16c79a" }} target="_blank" href="https://www.klimb.io/"> Klimb.io </a> where I worked on Customer Signup flow that includes UI Design, handling APIs, managing User Databases and Data Security, and Re-designed the UI features of the Website that increased session duration of Customer by 34%.</p>
+                    <p style={{ marginTop: 6 }}>I worked as a Full Stack Developer Intern at <a style={{ color: "#16c79a" }} target="noreferrer" href="https://www.klimb.io/"> Klimb.io </a> where I worked on Customer Signup flow that includes UI Design, handling APIs, managing User Databases and Data Security, and Re-designed the UI features of the Website that increased session duration of Customer by 34%.</p>
                 </div>
                 <div className="aboutMeRight">
-                    <img width="100%" height="100%" src={DeveloperSVG} />
+                    <img width="100%" height="100%" src={DeveloperSVG} alt="Developer PNG" />
                 </div>
             </div>
         </div>
