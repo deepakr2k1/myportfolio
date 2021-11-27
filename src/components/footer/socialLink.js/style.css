@@ -30,3 +30,14 @@ i {
     color: #f8a488;
     transition: 300ms;
 }
+
+/* Media Query */
+@media screen and (max-width: 600px) {
+    #socialIcon {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+        margin: 6px;
+    }
+}

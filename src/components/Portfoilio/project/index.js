@@ -7,22 +7,14 @@ import './style.css'
 export default function Project(props) {
     return (
         <div className="project">
-            {
-                !props.inverse ? (
-                    <div id="imgBlock">
-                        <img src={props.img}/>
-                    </div>
-                ) : null
-            }
-            
             <div className="projectText">
-                <H3 styles={{marginTop: "16px", marginBottom: "16px"}}>{props.title}</H3>
+                <H3 styles={{fontSize: "1rem", color: "#f8f5f1", marginTop: "16px", marginBottom: "16px"}}>{props.title}</H3>
                 <div>
-                    { props.desc.map((item) => <Text styles={{marginTop: "4px"}}>{item}</Text>) }
+                    { props.desc.map((item) => <Text styles={{marginTop: "4px", textAlign: "left"}}>{item}</Text>) }
                 </div>
                 <div id="projectFooter">
-                    <div>
-                        { props.tags.map((item) => <Tag styles={{fontSize: "0.9rem"}}>{item}</Tag>) }
+                    <div className="wrap">
+                        { props.tags.map((item) => <Tag styles={{fontSize: "0.9rem", display: "inline-block"}}>{item}</Tag>) }
                     </div>
                     <div>
                         <a href={props.links.git} target="_blank"><i class="bi bi-github icon"></i></a>
@@ -30,14 +22,6 @@ export default function Project(props) {
                     </div>
                 </div>
             </div>
-            
-            {
-                props.inverse ? (
-                    <div id="imgBlock">
-                        <img src={props.img}/>
-                    </div>
-                ) : null
-            }
         </div>
     )
 }

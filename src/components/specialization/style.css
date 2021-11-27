@@ -1,0 +1,22 @@
+#skills {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    overflow: auto;
+    background: #1a1c20;
+}
+#skills img {
+    margin: auto 1%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 800px) {
+    #skills img {
+        width: 13% !important;
+        height: 13% !important;
+    }
+    #skills .images-grp {
+        display: inline-block !important;
+        width: 100%;
+    }
+}

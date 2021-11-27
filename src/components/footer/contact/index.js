@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import emailjs from 'emailjs-com';
 import H1 from '../../UI/H1';
 import H2 from '../../UI/H2';
+import Button from '../../UI/Button'
 import './style.css'
 
 function Contact(props) {
@@ -45,12 +46,12 @@ function Contact(props) {
     return (
         <div style={props.styles}>
             <H1>Contact Me</H1>
+            <H2 styles={{paddingBottom: "20px"}}>Get in Touch</H2>
             <form onSubmit={sendEmail}>
-                <H2 styles={{paddingTop: "8px"}}>Get in Touch</H2>
                 <div>
-                    <div>
-                        <input type="text" name="name" placeholder="Your Name" required={true} />
-                        <input type="email" name="email" placeholder="Your E-mail" required={true} />
+                    <div className="wrap">
+                        <input className="mtb-5" type="text" name="name" placeholder="Your Name" required={true} />
+                        <input className="mtb-5" type="email" name="email" placeholder="Your E-mail" required={true} />
                     </div>
                     <div>
                         <textarea type="text" name="message" placeholder="Your Message here" required={true} rows="6" />
@@ -59,10 +60,11 @@ function Contact(props) {
                         showMsg ? showMessage(status) : null
                     }
                 </div>
-                <input id="submitButton" type="submit" value="SEND MESSAGE"/>
+                <Button onClick={sendEmail} label="SEND MESSAGE" />
             </form>
         </div>
     )
 }
 
 export default Contact;
+// {/* <input id="submitButton" type="submit" value=""/> */}
