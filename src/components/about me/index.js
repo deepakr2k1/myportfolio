@@ -16,7 +16,7 @@ export default function AboutMe() {
                     <p style={{ marginTop: 6 }}>I worked as a Full Stack Developer Intern at <a style={{ color: "#16c79a" }} target="noreferrer" href="https://www.klimb.io/"> Klimb.io </a> where I worked on Customer Signup flow that includes UI Design, handling APIs, managing User Databases and Data Security, and Re-designed the UI features of the Website that increased session duration of Customer by 34%.</p>
                 </div>
                 <div className="aboutMeRight">
-                    <img width="100%" height="100%" src={DeveloperSVG} alt="Developer PNG" />
+                    <img width="100%" src={DeveloperSVG} alt="Developer PNG" />
                 </div>
             </div>
         </div>
