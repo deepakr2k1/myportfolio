@@ -13,7 +13,7 @@ function Intro() {
                 <svg id="logo">
                     <text className="sde-title">SOFTWARE DEVELOPER</text>
                 </svg>
-                <div className="flexRow" style={{ margin: "30px 5px" }}>
+                <div className="flexRow" style={{ margin: "15px 5px" }}>
                     <div style={{fontSize: "12px"}} >
                         <a href="#contact">
                             <Button href="" label="Get In Touch" />
