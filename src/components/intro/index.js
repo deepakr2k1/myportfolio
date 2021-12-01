@@ -11,7 +11,7 @@ function Intro() {
                     I am Deepak Rathore
                 </p>
                 <svg id="logo">
-                    <text className="sde-title">SOFTWARE DEVELOPER</text>
+                    <text x="0" y="100%">SOFTWARE DEVELOPER</text>
                 </svg>
                 <div className="flexRow" style={{ margin: "15px 5px" }}>
                     <div style={{fontSize: "12px"}} >
