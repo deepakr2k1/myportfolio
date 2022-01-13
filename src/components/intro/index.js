@@ -20,7 +20,7 @@ function Intro() {
                         </a>
                     </div>
                     <div style={{font: "2rem"}} className="mlr-10" >
-                        <a target="noreferrer" href="https://drive.google.com/file/d/1Ef4sqs0guE5T1TEkctt4-teI8-kX2Z0G/view?usp=sharing">
+                        <a target="noreferrer" href="https://docs.google.com/document/d/1MWSyZI49IwoNViEl88rXD24tP4UhmN1nJWeaOjphDO4/edit?usp=sharing">
                             <Button label="Download Resume" />
                         </a>
                     </div>

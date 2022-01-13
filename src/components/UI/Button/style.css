@@ -3,10 +3,10 @@
     font-size: 12px;
     padding: 10px 20px;
     background: transparent;
-    color: #16c79a;
+    color: #198e91;
     border: 1px solid;
     border-radius: 20px;
-    border-color: #16c79a;
+    border-color: #198e91;
     box-sizing: border-box;
     letter-spacing: 1px;
     transition-duration: 500ms;
@@ -14,9 +14,9 @@
 
 #btn:hover {
     cursor: pointer;
-    background: #16c79a !important;
+    background: #198e91 !important;
     color: #fff;
-    box-shadow: #6dba6d 0px 0px 10px 0px;
+    box-shadow: #198e91 0px 0px 10px 0px;
     border-color: transparent;
     transition-duration: 500ms;
 }
