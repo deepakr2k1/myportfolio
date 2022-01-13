@@ -22,17 +22,17 @@ import vim_icon from '../../assets/icons8-vim-100.png';
 
 export default function Specialization() {
     let frontend = {
-        heading: "FRONTEND TECHLOGIES",
+        heading: "FRONTEND TECHNOLOGIES",
         icons: [react_icon, bootstrap_icon, material_ui_icon, js_icon, html_icon, css_icon],
         tooltip: ["React", "Bootstrap", "Material UI", "JavaScript", "HTML 5", "CSS 3"]
     }
     let backend = {
-        heading: "BACKEND TECHLOGIES",
+        heading: "BACKEND TECHNOLOGIES",
         icons: [node_icon, express_icon, mongodb_icon, mysql_icon, postman_icon],
         tooltip: ["Node JS", "Express", "Mongo DB", "MySql", "Postman"]
     }
     let other = {
-        heading: "OTHER TOOLS & TECHLOGIES",
+        heading: "OTHER TOOLS & TECHNOLOGIES",
         icons: [aws_icon, docker_icon, git_icon, github_icon, ubuntu_icon, vim_icon,],
         tooltip: ["AWS", "Docker", "Git", "Github", "Ubuntu", "Vim"]
     }
