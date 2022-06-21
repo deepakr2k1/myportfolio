@@ -5,7 +5,7 @@ import H2 from '../UI/H2'
 
 export default function Portfolio() {
     return (
-        <div id="projects" className="container" style={{ marginTop: "30px", minHeight: "100vh" }}>
+        <div id="projects" className="container" style={{ marginTop: "30px" }}>
             <H1>Projects</H1>
             <H2 styles={{ marginTop: "32px", textAlign: "center" }}>Some Things I’ve Built</H2>
             <div className="text-center" style={{ marginTop: 24 }}>
