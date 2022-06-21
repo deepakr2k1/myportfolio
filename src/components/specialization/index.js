@@ -1,6 +1,7 @@
 import React from 'react'
 import H1 from '../UI/H1'
 import Skills from './skills'
+import Triangle from '../UI/Triangle'
 
 import react_icon from '../../assets/icons8-react-native-100.png';
 import bootstrap_icon from '../../assets/icons8-bootstrap-100.png';
@@ -38,10 +39,14 @@ export default function Specialization() {
     }
     return (
         <div id="skills">
-            <H1>Skills</H1>
-            <Skills tech={frontend} />
-            <Skills tech={backend} />
-            <Skills tech={other} />
+            <Triangle styles={{ bottom: 0, borderRight: 0, borderBottom: "7.5vh solid #1a1c20" }}/>
+            <div class="skillsContiainer">
+                <H1>Skills</H1>
+                <Skills tech={frontend} />
+                <Skills tech={backend} />
+                <Skills tech={other} />
+            </div>
+            <Triangle styles={{ top: 0, borderLeft: 0, borderTop: "7.5vh solid #1a1c20" }}/>
         </div>
     )
 }

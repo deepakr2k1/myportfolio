@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import 'font-awesome/css/font-awesome.min.css';
+import Triangle from '../UI/Triangle';
 import SocialLink from './socialLink.js/index.js';
 import Contact from './contact/index';
 import Tag from '../UI/Tag/index.js';
@@ -11,6 +12,7 @@ function Footer() {
             <div id="contact">
                 <Contact/>
             </div>
+            <Triangle styles={{ bottom: 0, borderRight: 0, borderBottom: "5vh solid #1a1c20" }}/>
             <div id="links">
                 <div>
                     <a href="#home"><Tag>Home</Tag></a>

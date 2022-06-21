@@ -36,6 +36,6 @@ p {
     width: 50%;
     height: 300px;
 }
-/* * {
-    border: 1px solid red;
-} */
+#projects {
+    min-height: 100vh !important;
+}

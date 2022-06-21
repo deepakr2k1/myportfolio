@@ -25,7 +25,7 @@ function Contact(props) {
 
         return (
             <div style={{background: color}} className="modal">
-                <span>{msg}</span>
+                <span style={{color: "whitesmoke"}}>{msg}</span>
                 <i id="cancel" onClick={()=>{setShowMsg(false)}} class="bi bi-x-lg"></i>
             </div>
         )
