@@ -2,10 +2,6 @@ import React from 'react'
 import H1 from '../UI/H1'
 import H2 from '../UI/H2'
 import DeveloperSVG from '../../assets/developer_2.svg';
-import klimb from '../../assets/klimb.webp';
-import fansInc from '../../assets/fans-inc.jpeg';
-import practo from '../../assets/practo.png';
-import dunzo from '../../assets/dunzo.png';
 import "react-circular-progressbar/dist/styles.css";
 import './style.css'
 
