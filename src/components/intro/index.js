@@ -1,6 +1,6 @@
-import React from 'react'
-import Button from '../UI/Button/index'
-import './style.css'
+import React from 'react';
+import Button from '../UI/Button/index';
+import './style.css';
 
 function Intro() {
     return (
@@ -13,17 +13,17 @@ function Intro() {
                 <svg id="logo">
                     <text x="0" y="100%">SOFTWARE DEVELOPER</text>
                 </svg>
-                <div className="flexRow" style={{ margin: "15px 5px" }}>
-                    <div style={{fontSize: "12px"}} >
+                <div className="flexRow" style={ { margin: "15px 5px" } }>
+                    <div style={ { fontSize: "12px" } } >
                         <a href="#contact">
                             <Button href="" label="Get In Touch" />
                         </a>
                     </div>
-                    <div style={{font: "2rem"}} className="mlr-10" >
+                    {/* <div style={{font: "2rem"}} className="mlr-10" >
                         <a target="noreferrer" href="https://docs.google.com/document/d/1MWSyZI49IwoNViEl88rXD24tP4UhmN1nJWeaOjphDO4/edit?usp=sharing">
                             <Button label="Download Resume" />
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="introRight">
@@ -117,7 +117,7 @@ function Intro() {
                 </svg>
             </div>
         </div>
-    )
+    );
 }
 
 export default Intro;
