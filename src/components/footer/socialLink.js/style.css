@@ -3,17 +3,23 @@
 #socialContainer {
     font-size: 24px;
     margin: 24px auto;
+    display: flex;
+    justify-content: center;
 }
 #socialIcon {
-    display: inline-block;
+    display: flex;
     width: 24px;
     height: 24px;
     border: 3px solid #f8a488;
     margin: 8px;
     padding: 8px;
     border-radius: 16px;
-    /* border-radius: 24px; */
     transition: 300ms;
+}
+#socialIcon i {
+    color: #f8a488;
+    transition: 300ms;
+    margin: auto;
 }
 #socialIcon:hover {
     cursor: pointer;
@@ -24,10 +30,6 @@
 }
 #socialIcon:hover i {
     color: #f8f5f1;
-    transition: 300ms;
-}
-i {
-    color: #f8a488;
     transition: 300ms;
 }
 
