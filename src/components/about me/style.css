@@ -16,10 +16,11 @@
     margin: auto;
 }
 .aboutMe p {
-    line-height: 2rem;
-    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
     text-align: left;
     margin-left: 50px;
+    margin-bottom: 10px;
 }
 .aboutMeRight {
     display: inline-flex;
@@ -52,7 +53,7 @@
     }
     .aboutMeLeft p {
         margin: 20px !important;
-        font-size: 1.5rem !important;
-        line-height: 2rem !important;
+        font-size: 1.1rem !important;
+        line-height: 1.7rem !important;
     }
 }
