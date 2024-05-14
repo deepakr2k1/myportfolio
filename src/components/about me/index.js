@@ -16,10 +16,10 @@ export default function AboutMe() {
                         I thrive on the collaborative process, always seeking imaginative ways to communicate ideas and connect with new people.</p>
 
                     <p>My journey has taken me through esteemed companies like
-                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.amazon.de/"> Amazon </a> ,
-                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.deutsche-bank.de/"> Deutsche Bank </a> ,
-                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.dunzo.com/"> Dunzo </a> ,
-                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.practo.com/"> Practo </a> ,
+                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.amazon.de/"> Amazon </a>,
+                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.deutsche-bank.de/"> Deutsche Bank </a>,
+                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.dunzo.com/"> Dunzo </a>,
+                        <a style={ { color: "#16c79a" } } target="noreferrer" href="https://www.practo.com/"> Practo </a>,
                         where I've had the privilege
                         to contribute to incredible projects alongside talented team members. I've worn various hats, from Full Stack Developer to
                         Backend Developer and iOS Developer, delving into a diverse array of technologies including Spring Boot, React, Angular, Node.js, iOS
