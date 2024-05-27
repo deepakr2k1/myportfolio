@@ -15,7 +15,7 @@ function Intro() {
                 </svg>
                 <div className="flexRow" style={ { margin: "15px 5px" } }>
                     <div style={ { fontSize: "12px" } } >
-                        <a href="#contact">
+                        <a href="mailto:deepakr2k1@icloud.com">
                             <Button href="" label="Get In Touch" />
                         </a>
                     </div>
