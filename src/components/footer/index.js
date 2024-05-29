@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import 'font-awesome/css/font-awesome.min.css';
-import Triangle from '../UI/Triangle';
 import SocialLink from './socialLink.js/index.js';
 import Tag from '../UI/Tag/index.js';
 
