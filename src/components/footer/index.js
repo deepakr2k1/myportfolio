@@ -8,7 +8,6 @@ import Tag from '../UI/Tag/index.js';
 function Footer() {
     return (
         <footer>
-            <Triangle styles={ { bottom: 0, borderRight: 0, borderBottom: "5vh solid #1a1c20" } } />
             <div id="links">
                 <div>
                     <a href="#home"><Tag>Home</Tag></a>
